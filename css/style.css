@@ -1,27 +1,28 @@
 body{
     font-family: "Open Sans";
     margin: 0 auto;
+    font-size: 16px;
 }
 
 h1{
-    font-size: 50px;
+    font-size: 3.1em;
     font-weight: 400;
     line-height: 70px;
 }
 
 h2{
-    font-size: 40px;
+    font-size: 2.5em;
     font-weight: 300;
 }
 
 h4{
-    font-size: 15px;
+    font-size: 1em;
     font-weight: 700;
 }
 
 ul>li{
     list-style: none;
-    font-size: 13px;
+    font-size: 0.8em;
 }
 ul>li>a{
     text-decoration: none;
@@ -116,7 +117,7 @@ hr{
     text-decoration: none;
     color:#fff;
     padding: 10px;
-    margin-left: 475px;
+    margin-left: 465px;
     margin-top: 44px;
     border: 0px solid;
     border-radius: 30px;
@@ -153,14 +154,14 @@ hr{
     display: flex;
     flex-direction: column;
     color:#fff;
-    
+    padding-left: 40px;
 }
 
 .card{
     width: 395px;
     height: 113px;
     padding-top: 68px;
-    padding-right: 145px;
+    padding-right: 30px;
     font-size: 15px;
     line-height:30px;
 }
@@ -217,21 +218,21 @@ hr{
 .title{
     width: 648px;
     height: 309px;
-    padding-top: 70px;
+    padding-top: 85px;
     padding-left: 92px;
     position: relative;
 }
 
-.title h4{
+.titles h4{
     text-transform: uppercase;
 }
 
-.title p{
+.titles p{
     font-size: 19px;
     line-height: 31px;
 }
 
-.title span{
+.titles span{
     font-size: 15px;
     font-weight: 400; 
 }
@@ -245,8 +246,7 @@ hr{
     position: relative;
 }
 .background{
-    background-color:#690a72;
-    opacity: 0.8;
+    background-color:rgba(105,10,114,0.8);
     min-height: 450px;
     position: absolute;
     top:100px;
@@ -283,8 +283,8 @@ hr{
     background-size: cover;
     color:#fff;
     padding-left: 229px;
-    padding-top: 395px;
-    padding-bottom:30px;
+    padding-top: 335px;
+    padding-bottom:90px;
 }    
 
 .photography a{
@@ -306,6 +306,12 @@ hr{
     padding-left: 15px;
 }
 
+.text{
+    width: 650px;
+    height: 270px;
+    padding-top: 85px;
+    padding-left: 341px;
+}
 
 .pictur{
     background:url(../img/Layer_26.png);
@@ -318,7 +324,7 @@ hr{
 
 .contactUs{
     background-color:#e7526b;
-    min-height: 460px;
+    min-height: 430px;
     padding-left: 250px;
     padding-top: 98px;
     color:#fff;
@@ -330,7 +336,7 @@ hr{
 
 .footer{
     background-color: #2e3b4e;
-    min-height: 364px;
+    min-height: 304px;
     padding-left: 252px;
     padding-top: 45px;
     color:#fff;
